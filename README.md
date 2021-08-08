@@ -1,6 +1,6 @@
 # Sample Laravel App for Multipart Uploads Using Laravel, AWS S3, and Uppy
 
-This is a simple app built to demonstrate the use of the [laravel-uppy-s3-multipart-upload package](https://github.com/TappNetwork/laravel-uppy-s3-multipart-upload)
+This is a simple app built to demonstrate the use of the [laravel-uppy-s3-multipart-upload package](https://github.com/TappNetwork/laravel-uppy-s3-multipart-upload). It's a fresh default Laravel installation (latest version) and the default package installation.
 
 ## Installation
 
