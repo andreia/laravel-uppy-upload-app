@@ -36,7 +36,10 @@
               },
           })
           .use(StatusBar, {{ $statusBarOptions }})
-          .on('upload-success', onUploadSuccess('.upload .uploaded-files ol'));
+          .on('upload-success', onUploadSuccess('.upload .uploaded-files ol'))
+          .on('complete', function () {
+              uppy.reset()
+          });
     "
 >
     <section class="upload">
